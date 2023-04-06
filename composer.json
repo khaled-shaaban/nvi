@@ -1,5 +1,5 @@
 {
-  "name": "teknomavi/nvi",
+  "name": "khaled-shaaban/nvi",
   "type": "library",
   "description": "T.C. Nüfus Müdürlüğü Web Servisleri ( T.C. Kimlik Numarası Doğrulama Servisi )",
   "minimum-stability": "dev",
@@ -11,16 +11,20 @@
     "tckn",
     "nvi.gov.tr"
   ],
-  "homepage": "https://github.com/teknomavi/nvi",
+  "homepage": "https://github.com/khaled-shaaban/nvi",
   "authors": [
     {
       "name": "Teknomavi",
       "email": "info@teknomavi.com",
       "homepage": "http://www.teknomavi.com"
+    },
+    {
+      "name": "Khaled Shaaban",
+      "email": "khaled.shabaan277@gmail.com"
     }
   ],
   "support": {
-    "issues": "https://github.com/teknomavi/nvi/issues"
+    "issues": "https://github.com/khaled-shaaban/nvi/issues"
   },
   "require": {
     "php": "> 5.4",
