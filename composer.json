@@ -1,5 +1,5 @@
 {
-  "name": "khaled-shaaban/nvi",
+  "name": "teknomavi/nvi",
   "type": "library",
   "description": "T.C. Nüfus Müdürlüğü Web Servisleri ( T.C. Kimlik Numarası Doğrulama Servisi )",
   "minimum-stability": "dev",
