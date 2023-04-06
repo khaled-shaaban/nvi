@@ -11,6 +11,8 @@ class KPSPublic extends \SoapClient
     private static $classmap = [
         'TCKimlikNoDogrula'         => 'TCKimlikNoDogrulaRequest',
         'TCKimlikNoDogrulaResponse' => 'TCKimlikNoDogrulaResponse',
+        'YabanciKimlikNoDogrula'            => 'YabanciKimlikNoDogrulaRequest',
+        'YabanciKimlikNoDogrulaResponse'    => 'YabanciKimlikNoDogrulaResponse',
     ];
 
     /**
@@ -41,5 +43,20 @@ class KPSPublic extends \SoapClient
     public function kimlikNoDogrula(TCKimlikNoDogrulaRequest $request)
     {
         return $this->__soapCall('TCKimlikNoDogrula', func_get_args());
+    }
+
+
+    /** 
+     * Service Call: YabanciKimlikNoDogrula.
+     * 
+     * @param YabanciKimlikNoDogrulaRequest $request
+     * 
+     * @throws \Exception invalid function signature message
+     * 
+     * @return YabanciKimlikNoDogrulaResponse
+     */
+    public function yabanciKimlikNoDogrula(YabanciKimlikNoDogrulaRequest $request)
+    {
+        return $this->__soapCall('YabanciKimlikNoDogrula', func_get_args());
     }
 }
